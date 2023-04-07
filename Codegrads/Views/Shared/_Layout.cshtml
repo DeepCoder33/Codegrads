@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Codegrads</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Codegrads.styles.css" asp-append-version="true" />
+    <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+    <link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
+
+    <style type="text/css">
+    img.wp-smiley,
+    img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+    }
+</style>
+
+    <link rel='stylesheet' id='wp-block-library-css' href='~/Content/wp-includes/css/dist/block-library/style.min6a4d.css' type='text/css' />
+    <link rel='stylesheet' id='wc-blocks-vendors-style-css' href='~/Content/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style174f.css?ver=9.6.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='wc-blocks-style-css' href='~/Content/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style174f.css?ver=9.6.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='classic-theme-styles-css' href='~/Content/wp-includes/css/classic-themes.min68b3.css?ver=1' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href='~/Content/wp-content/plugins/contact-form-7/includes/css/styles4999.css?ver=5.7.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-layout-css' href='~/Content/wp-content/plugins/woocommerce/assets/css/woocommerce-layout8c10.css?ver=7.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css' href='~/Content/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen8c10.css?ver=7.5.1' type='text/css' media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' id='woocommerce-general-css' href='~/Content/wp-content/plugins/woocommerce/assets/css/woocommerce8c10.css?ver=7.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='educenter-fonts-css' href='https://fonts.googleapis.com/css?family=Roboto+Condensed%3A300%2C300i%2C400%2C400i%2C700%7CRoboto%3A300%2C400%2C500%2C700%7CLato%3A300%2C400%2C500%2C700&amp;subset=latin%2Clatin-ext' type='text/css' media='all' />
+    
+    <link rel='stylesheet' id='fontawesome-css' href='~/Content/wp-content/themes/educenter/assets/library/fontawesome/css/all.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='lightslider-css' href='~/Content/wp-content/themes/educenter/assets/library/lightslider/css/lightslider.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='prettyPhoto-css' href='~/Content/wp-content/themes/educenter/assets/library/prettyphoto/css/prettyPhoto6a4d.css?ver=6.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='educenter-mobile-menu-css' href='~/Content/wp-content/themes/educenter/sparklethemes/mobile-menu/mobile-menu68b3.css?ver=1' type='text/css' media='all' />
+    <link rel='stylesheet' id='educenter-parent-style-css' href='~/Content/wp-content/themes/educenter/style6a4d.css?ver=6.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='educenter-parent-responsive-css' href='~/Content/wp-content/themes/educenter/assets/css/responsive6a4d.css?ver=6.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='education-xpert-style-css' href='~/Content/wp-content/themes/education-xpert/style6a4d.css?ver=6.1.1' type='text/css' media='all' />
+   
+</head>
+
+
+<body class="home blog theme-educenter woocommerce-no-js educenter-home-enable educenter-slider-enable hfeed rightsidebar columns-3">
+    <div id="page" class="site">
+        <header id="masthead" class="site-header general-header headerone" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+            <div class="top-header clearfix">
+                <div class="container">
+                    <div class="contact-info left-contact">
+                        <div class="edu-topnav">
+                            <div class="menu-top-menu-container">
+                                <ul id="top-menu" class="menu">
+                                    <li id="menu-item-494" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-494"><a href="index.html" aria-current="page">Home</a></li>
+                                    <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496"><a href="gallery/index.html">Gallery</a></li>
+                                    <li id="menu-item-497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-497"><a href="shop/index.html">Shop</a></li>
+                                    <li id="menu-item-495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-495"><a href="contact-us/index.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact clearfix">
+                        <ul class="edu-social">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-header">
+                <div class="container">
+                    <div class="header-middle-inner">
+                        <div class="site-branding logo">
+                            <div class="brandinglogo-wrap">
+                                <h1 class="site-title">
+                                    <a href="index.html" rel="home">
+                                        Codegrads
+                                    </a>
+                                </h1>
+                                <p class="site-description">A vision to code</p>
+                            </div>
+                            <button class="header-nav-toggle" data-toggle-target=".header-mobile-menu" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
+                                <div class="one"></div>
+                                <div class="two"></div>
+                                <div class="three"></div>
+                            </button>
+                        </div>
+                        <div class="contact-info">
+                            <div class="quickcontact">
+                                <div class="get-tuch text-left">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <ul>
+                                        <li>
+                                            <h4>Phone Number</h4>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <a href="tel:919582973533">
+                                                    +91 - 9582973533
+                                                </a>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="get-tuch text-left">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <ul>
+                                        <li>
+                                            <h4>Contact Address</h4>
+                                        </li>
+                                        <li>
+                                            <p>Delhi, India</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="get-tuch text-left">
+                                    <i class="far fa-envelope"></i>
+                                    <ul>
+                                        <li>
+                                            <h4>Email Address</h4>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <a href="https://demo.sparklewpthemes.com/cdn-cgi/l/email-protection#790a5f5a48484e420909165f5a48484d425f5a48484f425f5a494f4d420a5f5a48484b42180b125f5a484941425f5a484948420e095f5a48484f42115f5a484948425f5a484940425f5a484948425f5a48484c425f5a494d4f425f5a49404042165f5a48494042">
+                                                    support@codegrads.com
+                                                </a>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <div class="container">
+                    <div class="box-header-nav main-menu-wapper">
+                        <ul id="menu-menu-menu" class="main-menu">
+                            <li id="menu-item-426" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-426"><a href="index.html" aria-current="page">Home</a></li>
+                            <li id="menu-item-103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-103">
+                                <a href="#">Courses</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="biology/index.html">Biology</a></li>
+                                    <li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="master-of-business-administration/index.html">Business Courses</a></li>
+                                    <li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="architecture/index.html">Architecture</a></li>
+                                    <li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="computer-it-courses/index.html">Computer &#038; IT</a></li>
+                                    <li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="politics/index.html">Politics</a></li>
+                                    <li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="history-2/index.html">History</a></li>
+                                    <li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="science/index.html">Science</a></li>
+                                    <li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="travel-tourism/index.html">Travel &#038; Tourism</a></li>
+                                    <li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="zoology/index.html">Zoology</a></li>
+                                    <li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="fashion-courses/index.html">Fashion Courses</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-367" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-367">
+                                <a href="#">Page Layouts</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a href="left-sidebar/index.html">Left Sidebar</a></li>
+                                    <li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365"><a href="right-sidebar/index.html">Right Sidebar</a></li>
+                                    <li id="menu-item-364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364"><a href="full-width/index.html">Full Width</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-335">
+                                <a href="our-team-members-2/index.html">Our Team</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-340"><a href="adena-leal/index.html">Adena Leal</a></li>
+                                    <li id="menu-item-343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-343"><a href="thomas-grey/index.html">Thomas Grey</a></li>
+                                    <li id="menu-item-342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-342"><a href="shela-liou/index.html">Shela Liou</a></li>
+                                    <li id="menu-item-341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-341"><a href="ripley-argon/index.html">Ripley Argon</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-420">
+                                <a href="shop/index.html">Shop</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-417" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-417"><a href="my-account/index.html">My account</a></li>
+                                    <li id="menu-item-418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"><a href="checkout/index.html">Checkout</a></li>
+                                    <li id="menu-item-419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-419"><a href="cart/index.html">Cart</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="gallery/index.html">Gallery</a></li>
+                            <li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="contact-us/index.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer id="footer" class="footer ed-footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+            <a class="goToTop" href="#" id="scrollTop">
+                <i class="fa fa-angle-up"></i>
+                <span>Top</span>
+            </a>
+            <div class="top-footer layout-1">
+                <div class="container">
+                    <div class="ed-footer-holder ed-col-3">
+                        <div id="text-1" class="widget ed-col widget_text">
+                            <div class="ed-col-wrapper">
+                                <div class="widget-ed-title"><h2 class="widget-title">About Education Xpert Theme</h2></div> <div class="textwidget">
+                                    <p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-392" src="../educenter/wp-content/uploads/2018/02/educenter_logodark.png" alt="" width="273" height="60" /></p>
+                                    <p>Education Xpert simple clean and awesome fully customizable responsive Free Education WordPress Themes, Education Xpert specially design for all type of educational institutions websites. Education Xpert is one of the most accessible Free Education WordPress Themes which can easily accommodate all type of users with no coding skills to advanced or normal web developers.</p>
+                                </div>
+                            </div>
+                        </div><div id="custom_html-3" class="widget_text widget ed-col widget_custom_html"><div class="widget_text ed-col-wrapper"><div class="widget-ed-title"><h2 class="widget-title">Facebook Page Feed</h2></div><div class="textwidget custom-html-widget"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsparklewpthemes%2F&amp;tabs=timeline&amp;width=365&amp;height=360&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=true&amp;show_facepile=true&amp;appId" width="365" height="360" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div></div></div><div id="media_gallery-3" class="widget ed-col widget_media_gallery">
+                            <div class="ed-col-wrapper">
+                                <div class="widget-ed-title"><h2 class="widget-title">Our Success Gallery</h2></div><div id='gallery-1' class='gallery galleryid-1 gallery-columns-3 gallery-size-thumbnail'>
+                                    <figure class='gallery-item'>
+                                        <div class='gallery-icon landscape'>
+                                            <a href='2018/02/26/tips-for-improving-self-motivation-and-productivity/pexels-photo-708392-1/index.html'><img width="150" height="150" src="wp-content/uploads/2018/02/pexels-photo-708392-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy" srcset="https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-708392-1-150x150.jpeg 150w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-708392-1-300x300.jpeg 300w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-708392-1-100x100.jpeg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                        </div>
+                                    </figure><figure class='gallery-item'>
+                                        <div class='gallery-icon landscape'>
+                                            <a href='travel-tourism/pexels-photo-672358-1/index.html'><img width="150" height="150" src="wp-content/uploads/2018/02/pexels-photo-672358-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy" srcset="https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-672358-1-150x150.jpeg 150w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-672358-1-300x300.jpeg 300w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-672358-1-100x100.jpeg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                        </div>
+                                    </figure><figure class='gallery-item'>
+                                        <div class='gallery-icon landscape'>
+                                            <a href='your-success-is-our-mission/144994-ote6b6-919-min/index.html'><img width="150" height="150" src="wp-content/uploads/2018/02/144994-OTE6B6-919-min-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy" srcset="https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/144994-OTE6B6-919-min-150x150.jpg 150w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/144994-OTE6B6-919-min-300x300.jpg 300w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/144994-OTE6B6-919-min-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                        </div>
+                                    </figure><figure class='gallery-item'>
+                                        <div class='gallery-icon landscape'>
+                                            <a href='pexels-photo-806715-1/index.html'><img width="150" height="150" src="wp-content/uploads/2018/02/pexels-photo-806715-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy" srcset="https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-806715-1-150x150.jpeg 150w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-806715-1-300x300.jpeg 300w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-806715-1-100x100.jpeg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                        </div>
+                                    </figure><figure class='gallery-item'>
+                                        <div class='gallery-icon landscape'>
+                                            <a href='music-and-art/pexels-photo-164749-1/index.html'><img width="150" height="150" src="wp-content/uploads/2018/02/pexels-photo-164749-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy" srcset="https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-164749-1-150x150.jpeg 150w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-164749-1-300x300.jpeg 300w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-164749-1-100x100.jpeg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                        </div>
+                                    </figure><figure class='gallery-item'>
+                                        <div class='gallery-icon landscape'>
+                                            <a href='computer-it-courses/student-849825_1280-1/index.html'><img width="150" height="150" src="wp-content/uploads/2018/02/student-849825_1280-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy" srcset="https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/student-849825_1280-1-150x150.jpg 150w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/student-849825_1280-1-300x300.jpg 300w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/student-849825_1280-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                        </div>
+                                    </figure><figure class='gallery-item'>
+                                        <div class='gallery-icon landscape'>
+                                            <a href='fashion-courses/pexels-photo-262039-1/index.html'><img width="150" height="150" src="wp-content/uploads/2018/02/pexels-photo-262039-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy" srcset="https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-262039-1-150x150.jpeg 150w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-262039-1-300x300.jpeg 300w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-262039-1-100x100.jpeg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                        </div>
+                                    </figure><figure class='gallery-item'>
+                                        <div class='gallery-icon landscape'>
+                                            <a href='hands-people-woman-working-1/index.html'><img width="150" height="150" src="wp-content/uploads/2018/02/hands-people-woman-working-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy" srcset="https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/hands-people-woman-working-1-150x150.jpg 150w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/hands-people-woman-working-1-300x300.jpg 300w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/hands-people-woman-working-1-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                        </div>
+                                    </figure><figure class='gallery-item'>
+                                        <div class='gallery-icon landscape'>
+                                            <a href='binny-whitla/pexels-photo-206615/index.html'><img width="150" height="150" src="wp-content/uploads/2018/02/pexels-photo-206615-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy" srcset="https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-206615-150x150.jpeg 150w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-206615-300x300.jpeg 300w, https://demo.sparklewpthemes.com/educationxpert/wp-content/uploads/2018/02/pexels-photo-206615-100x100.jpeg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                        </div>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer clearfix">
+                <div class="container">
+                    <div class="footer-bottom-left">
+                        <p>Copyright &copy; @DateTime.Now.Date.Year by Codegrads <a href="https://codegrads.com/" rel="designer" target="_blank">www.codegrads.com</a> </p>
+                    </div>
+                    <div class="footer-bottom-right">
+                        <div class="menu-footer-menu-container">
+                            <ul id="footer-menu" class="menu">
+                                <li id="menu-item-310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310"><a href="privacy-policy-2/index.html">Privacy Policy</a></li>
+                                <li id="menu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311"><a href="terms-of-service/index.html">Terms of Service</a></li>
+                                <li id="menu-item-492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-492"><a href="contact-us/index.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+     </div>
+   
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
